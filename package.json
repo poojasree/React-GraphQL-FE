@@ -7,6 +7,10 @@
     "start": "webpack-dev-server --hot"
   },
   "author": "",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/shivam3108/React-GraphQL-FE.git"
+}
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.3",

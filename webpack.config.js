@@ -11,7 +11,7 @@ var config = {
                           port: 7777,
                           proxy: {
                             '/api': {
-                                target: 'http://localhost:8091/rest/graphql',
+                                target: 'http://spring-boot-app:8091/rest/graphql',
                                 secure: false,
                                 changeOrigin: true,
                                 pathRewrite: { '^/api': '' }
